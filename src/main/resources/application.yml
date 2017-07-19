@@ -1,0 +1,12 @@
+server:
+  port: 8761
+security:
+  basic:
+    enabled: false
+
+eureka:
+  client:
+    registerWitheureka: false
+    fetchregistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
